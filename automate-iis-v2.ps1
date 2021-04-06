@@ -23,4 +23,4 @@
 # SOFTWARE.
 
 Add-WindowsFeature Web-Server
-Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "<script src="https://gist.github.com/old-campos/3870308.js"></script>"
+Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "<center><h1>Hello World from host $($env:computername) !</h1><center>"
