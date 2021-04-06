@@ -23,11 +23,4 @@
 # SOFTWARE.
 
 Add-WindowsFeature Web-Server
-Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "<!DOCTYPE html>
-<html>
-<body>
-<h2>The href Attribute</h2>
-<p>HTML links are defined with the a tag. The link address is specified in the href attribute:</p>
-<a href="https://www.w3schools.com">Visit W3Schools</a>
-</body>
-</html>"
+Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "<script src="https://gist.github.com/old-campos/3870308.js"></script>"
